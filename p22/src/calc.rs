@@ -12,7 +12,7 @@ pub fn fibonacci_loop(n: u32) -> u64 {
     for _ in 0..n {
         let temp = a;
         a = b;
-        b = temp + b;
+        b += temp;
     }
     a
 }
@@ -24,4 +24,3 @@ pub fn fibonacci_rec(n: u32) -> u64 {
         _ => fibonacci_rec(n - 1) + fibonacci_rec(n - 2),
     }
 }
-

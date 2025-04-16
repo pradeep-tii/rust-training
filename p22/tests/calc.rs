@@ -13,7 +13,7 @@ fn test_fahrenheit2celsius() {
 }
 
 #[test]
-fn test_fibonacci_loop(){
+fn test_fibonacci_loop() {
     assert_eq!(fibonacci_loop(0), 0);
     assert_eq!(fibonacci_loop(1), 1);
     assert_eq!(fibonacci_loop(5), 5);
@@ -27,4 +27,3 @@ fn test_fibonacci_rec() {
     assert_eq!(fibonacci_rec(5), 5);
     assert_eq!(fibonacci_loop(7), 13);
 }
-

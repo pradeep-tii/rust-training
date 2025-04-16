@@ -1,7 +1,7 @@
 pub fn sing() {
     let days = [
-        "first", "second", "third", "fourth", "fifth", "sixth",
-        "seventh", "eighth", "ninth", "tenth", "eleventh", "twelfth"
+        "first", "second", "third", "fourth", "fifth", "sixth", "seventh", "eighth", "ninth",
+        "tenth", "eleventh", "twelfth",
     ];
 
     let gifts = [
@@ -16,7 +16,7 @@ pub fn sing() {
         "nine Ladies Dancing,",
         "ten Lords a Leaping,",
         "eleven Pipers Piping,",
-        "twelve Drummers Drumming,"
+        "twelve Drummers Drumming,",
     ];
 
     for day in 0..12 {
